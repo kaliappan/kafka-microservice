@@ -1,0 +1,6 @@
+com/kali/microservices/kafka/HelloController.class
+com/kali/microservices/kafka/ReceiverConfig.class
+com/kali/microservices/kafka/Sender.class
+com/kali/microservices/kafka/Receiver.class
+com/kali/microservices/kafka/ProducerApplication.class
+com/kali/microservices/kafka/KafkaRestController.class
