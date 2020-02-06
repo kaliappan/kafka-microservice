@@ -12,4 +12,5 @@ This project gives following features-
         * GET http://localhost:8080/kafka/topics/topic1/messages
     
     Get Response: 
+    
     [ "Partition=0 | Offset=3 | Key=null | Value=send123" ]
