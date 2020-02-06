@@ -3,7 +3,7 @@ This project gives following features-
 
 1. Gives an api to send one message to any topic in Kafka.
 
-        * POST http://localhost:8081/kafka/topics/topic1/messages 
+        * POST http://localhost:8080/kafka/topics/topic1/messages 
         
         send123
         
