@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: kafka-microservice
+  kafka:
+    consumer:
+      bootstrap-servers: kafka-test-cp-kafka-headless:9092
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      bootstrap-servers: kafka-test-cp-kafka-headless:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+app:
+  consumer1: 
+    topic: Test1 
+    group-id: Test1-cg-2
+  producer1:  
+    topic: Test1
