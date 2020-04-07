@@ -1,0 +1,19 @@
+{
+	"name": "inputDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "cgAzureStorageLinkedService2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "emp.txt",
+				"folderPath": "input",
+				"container": "adfv2tutorial"
+			}
+		}
+	}
+}
