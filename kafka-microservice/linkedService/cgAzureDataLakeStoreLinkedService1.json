@@ -1,0 +1,11 @@
+{
+	"name": "cgAzureDataLakeStoreLinkedService1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://undefined.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61"
+		}
+	}
+}
