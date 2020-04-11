@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "AzureDataLakeStore",
 		"typeProperties": {
-			"dataLakeStoreUri": "https://kadls1.azuredatalakestore.net/webhdfs/v1",
+			"dataLakeStoreUri": "https://kdatalake1.azuredatalakestore.net/webhdfs/v1",
 			"tenant": "558a017f-2a20-4caf-878f-ebc8e57b7769",
 			"subscriptionId": "59759a38-9465-42c7-a2f6-6ef1fc98013e",
 			"resourceGroupName": "kResourceGroup"
