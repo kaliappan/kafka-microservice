@@ -1,16 +1,14 @@
 {
 	"name": "AzureDataLakeStore1",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AzureDataLakeStore",
 		"typeProperties": {
-			"dataLakeStoreUri": "https://kdatalake1.azuredatalakestore.net/webhdfs/v1",
-			"servicePrincipalId": "38e1a89f-3d24-408e-92e7-43971395e785",
+			"dataLakeStoreUri": "https://kadls1.azuredatalakestore.net/webhdfs/v1",
 			"tenant": "558a017f-2a20-4caf-878f-ebc8e57b7769",
 			"subscriptionId": "59759a38-9465-42c7-a2f6-6ef1fc98013e",
-			"resourceGroupName": "kResourceGroup",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIktBREZUVVRPUklBTERBVEFGQUNUT1JZX2IzZDg2Y2E3LTk2MTktNDY1ZC1hMGNhLWQzYjc2MDg0ZDg0NSINCn0="
+			"resourceGroupName": "kResourceGroup"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
