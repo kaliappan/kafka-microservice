@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureDataLakeStoreLocation",
-				"folderPath": "landingzone/output"
+				"fileName": "output",
+				"folderPath": "landingzone"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
