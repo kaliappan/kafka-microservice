@@ -1,0 +1,25 @@
+{
+	"name": "stage",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@pipeline().parameters.SourceFile",
+					"type": "Expression"
+				},
+				"fileSystem": {
+					"value": "@pipeline().parameters.SourceFolder",
+					"type": "Expression"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

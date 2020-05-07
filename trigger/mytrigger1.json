@@ -1,0 +1,29 @@
+{
+	"name": "mytrigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"SourceFolder": "@triggerBody().folderPath",
+					"SourceFile": "@triggerBody().fileName"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/blobstorage/blobs/testdir",
+			"blobPathEndsWith": ".dat",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/59759a38-9465-42c7-a2f6-6ef1fc98013e/resourceGroups/kResourceGroup/providers/Microsoft.Storage/storageAccounts/kvsctest",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
